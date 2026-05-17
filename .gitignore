@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.python_packages/
+.venv/
+venv/
+
+# Azure Functions local settings (may contain secrets)
+local.settings.json
+
+# Terraform / Bicep build artifacts
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/settings.json
+.idea/
