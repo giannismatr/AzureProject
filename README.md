@@ -12,6 +12,16 @@ A working demonstration of Zero Trust networking principles on Azure, built with
 
 ## Architecture
 
+See [docs/architecture.md](docs/architecture.md) for full Mermaid diagrams:
+- Overall architecture
+- Request flow sequence diagram
+- NSG rule evaluation flowchart
+- Zero Trust principles mindmap
+- Private endpoint DNS resolution
+- Managed Identity flow
+- Bicep module dependency graph
+- Cost breakdown
+
 ```
 Internet
     │  (HTTPS only, from your IP)
